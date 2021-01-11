@@ -10,6 +10,7 @@ namespace DhakaStockExchangeWorker.Services
     public class DSEService : IDSEService
     {
         private const string URL = "https://www.dse.com.bd/latest_share_price_scroll_l.php";
+
         private HtmlWeb WEB = new HtmlWeb();
         private HtmlDocument HTMLDOC = null;
 
